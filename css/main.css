@@ -415,14 +415,14 @@ body {
 
 .profile__img-bg,
 .team__img-bg {
-  background-image: url(../assets/images/Feature-3.jpg);
+  background-image: url(../assets/images/image-1.webp);
   background-position: center bottom;
   background-size: cover;
   height: 24rem;
   position: relative; }
 
 .team__img-bg {
-  background-image: url(../assets/images/Feature-2.jpg); }
+  background-image: url(../assets/images/image-2.webp); }
 
 .profile__panel,
 .team__panel {

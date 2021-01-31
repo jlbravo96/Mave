@@ -234,7 +234,7 @@ body {
 .profile,
 .team {
   &__img-bg {
-    background-image: url(../assets/images/Feature-3.jpg);
+    background-image: url(../assets/images/image-1.webp);
     background-position: center bottom;
     background-size: cover;
     height: 24rem;
@@ -243,7 +243,7 @@ body {
 
   @at-root {
     .team__img-bg {
-      background-image: url(../assets/images/Feature-2.jpg);
+      background-image: url(../assets/images/image-2.webp);
     }
   }
 
