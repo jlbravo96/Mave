@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="Web, Webpage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Nunito+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="img/png" href="assets/logo/logo.png" />
+    <title>Maven</title>
+  </head>
+  <body class="preload blue-bg">
+    <div class="container main-container">
+      <!-- |||| |||| ---- HEADER ---- |||| |||| -->
+
+      <header class="px-2">
+        <nav class="py-2 | pageNavbar">
+          <img
+            id="mainLogo"
+            class="mainLogo"
+            src="assets/logo/logo.png"
+            alt="Logo princial del sitio web"
+          />
+
+          <div id="menuBtn" class="menuBtn">
+            <img
+              class="menuIcon show"
+              src="assets/icon/menu-icon.svg"
+              alt="Boton para expandir el menú de la página web en celulares"
+            />
+            <img
+              class="menuIcon"
+              src="assets/icon/menu-icon-close.svg"
+              alt="Boton para cerrar el menú de la página web en celulares"
+            />
+          </div>
+
+          <ul id="menuList" class="menuList">
+            <li class="menuList__item">
+              <a class="menuList__link" href="#">HOME</a>
+            </li>
+            <li class="menuList__item">
+              <a class="menuList__link" href="#">PROFILE</a>
+            </li>
+            <li class="menuList__item">
+              <a class="menuList__link" href="#">SERVICE</a>
+            </li>
+            <li class="menuList__item">
+              <a class="menuList__link" href="#">OUR TEAM</a>
+            </li>
+            <li class="menuList__item">
+              <a class="menuList__link" href="#">ARTICLES</a>
+            </li>
+            <li class="menuList__item">
+              <a class="menuList__link menuList__link--btn" href="#"
+                >GET IT TOUCH</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="py-2">
+          <h1 class="mb-2 | pageTitle">A team with experience & vision.</h1>
+          <p class="mb-2 | pageSubtitle">
+            Providing stellar legal counsel and representation to Australian
+            <br />
+            Businesses for over 40 years.
+          </p>
+          <div class="separator"></div>
+        </div>
+      </header>
+
+      <!-- |||| |||| ---- SERVICE ---- |||| |||| -->
+      <section class="px-2 mb-4 | service">
+        <h2 class="my-1 | service__title">REPRESENTING CLIENTS IN:</h2>
+        <ul class="my-1 | service__list">
+          <li class="service__item">
+            <a class="service__link" href="#">Procurement,</a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">Civil Litigation,</a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">Patent Law,</a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">Public Relations,</a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">Intelectual Property</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- |||| |||| ---- PROFILE ---- |||| |||| -->
+      <section class="px-2 mb-4 | profile">
+        <div class="profile__img-bg">
+          <div class="p-2 | profile__panel">
+            <h3 class="mb-1 | profile__title">Rising the bar</h3>
+            <p class="mb-1 | profile__text">
+              We've been providing expert legal counsel to Melbourne since 1978
+            </p>
+            <a href="#" class="profile__link">READ OUR PROFILE</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- |||| |||| ---- TESTIMONIES ---- |||| |||| -->
+      <section class="px-2 mb-4 mx-auto | testimonies">
+        <blockquote class="testimonies__text">
+          “We wouldn't feel comfortable trusting anyone else to represent our
+          company in legal matters”
+        </blockquote>
+        <p class="mb-3 | testimonies__name">
+          Helen McNaught - Patent Law Client
+        </p>
+      </section>
+
+      <!-- |||| |||| ---- TEAM ---- |||| |||| -->
+      <section class="px-2 | team">
+        <div class="team__img-bg">
+          <div class="p-2 | team__panel">
+            <h3 class="mb-1 | team__title">Dedicated Expertise</h3>
+            <p class="mb-1 | team__text">
+              Our legal advisors bring over 100 years of combined experience to
+              every case.
+            </p>
+            <a href="#" class="team__link">MEET OUR TEAM</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="separator my-3 mx-auto"></div>
+
+      <!-- |||| |||| ---- CONTACT ---- |||| |||| -->
+      <section class="px-2 py-1 | contact">
+        <p class="mb-1 | contact__question">THE NEXT STEP?</p>
+        <h3 class="mb-1 | contact__title">Request a consultation call.</h3>
+        <p class="mb-2 | contact__text">
+          Speak with a legal professional in an obligation-free initial
+          consultation.
+        </p>
+        <a class="contact__btn" href="#">GET IN TOUCH</a>
+      </section>
+
+      <div class="separator my-3 mx-auto"></div>
+
+      <!-- |||| |||| ---- STORIES ---- |||| |||| -->
+
+      <section class="px-2 mb-3 | stories container">
+        <h3 class="my-4 | stories__title">Recent News Stories</h3>
+
+        <div class="stories__flexContainer">
+          <article class="mb-4 | blogPost">
+            <p class="mb-1 | blogPost__date">APRIL 26, 2017</p>
+            <h4 class="mb-1">
+              <a class="blogPost__title" href="#">Re-capping Q1 2017</a>
+            </h4>
+            <p class="mb-1 | blogPost__text">
+              A most productive start to the year saw many changes for us.
+            </p>
+            <a class="blogPost__link" href="#">READ STORY</a>
+          </article>
+
+          <article class="mb-4 | blogPost">
+            <p class="mb-1 | blogPost__date">APRIL 26, 2017</p>
+            <h4 class="mb-1">
+              <a class="blogPost__title" href="#"
+                >The Nature of Efficacy In A Modern Legal Practice</a
+              >
+            </h4>
+            <p class="mb-1 | blogPost__text">
+              Working together to achieve actionable, just-in-time results
+            </p>
+            <a class="blogPost__link" href="#">READ STORY</a>
+          </article>
+
+          <article class="mb-4 | blogPost">
+            <p class="mb-1 | blogPost__date">APRIL 21, 2017</p>
+            <h4 class="mb-1">
+              <a class="blogPost__title" href="#"
+                >Transforming Legal Team Communication in 2017</a
+              >
+            </h4>
+            <p class="mb-1 | blogPost__text">
+              Strategies for managing multiple stakeholders in an online
+              environment
+            </p>
+            <a class="blogPost__link" href="#">READ STORY</a>
+          </article>
+        </div>
+      </section>
+    </div>
+    <!-- |||| |||| ---- FOOTER ---- |||| |||| -->
+    <footer class="pageFooter">
+      <img
+        class="mx-auto my-4 | mainLogo"
+        src="assets/logo/logo.png"
+        alt="Logo princial del sitio web"
+      />
+      <p class="mx-1 my-2 | pageFooter__text">
+        A team with experience & vision.
+      </p>
+
+      <ul class="mb-3 | mapSite">
+        <li class="mx-2 | mapSite__item">
+          <a class="mapSite__link" href="#">SERVICE</a>
+        </li>
+        <li class="mx-2 | mapSite__item">
+          <a class="mapSite__link" href="#">OUR TEAM</a>
+        </li>
+        <li class="mx-2 | mapSite__item">
+          <a class="mapSite__link" href="#">ARTICLES</a>
+        </li>
+        <li class="mx-2 | mapSite__item">
+          <a class="mapSite__link" href="#">LICENSE</a>
+        </li>
+        <li class="mx-2 | mapSite__item">
+          <a class="mapSite__link" href="#">CONTACT</a>
+        </li>
+      </ul>
+
+      <div class="info">
+        <div class="info__container">
+          <div class="info__item">
+            <span class="info__itemName">INFO</span>
+            <p>Powered by J.Bravo</p>
+          </div>
+          <div class="info__item">
+            <span class="info__itemName">VISIT</span>
+            <p>1234 Glenferrie, Toronto</p>
+          </div>
+          <div class="info__item">
+            <span class="info__itemName">FOLLOW</span>
+            <ul class="networksList">
+              <li class="networksList__item">
+                <a class="networksList__link" href="#"
+                  ><img src="assets/icon/linkedin.svg" alt="Icono de linkedin"
+                /></a>
+              </li>
+              <li class="networksList__item">
+                <a class="networksList__link" href="#"
+                  ><img src="assets/icon/facebook.svg" alt="Icono de facebook"
+                /></a>
+              </li>
+              <li class="networksList__item">
+                <a class="networksList__link" href="#"
+                  ><img src="assets/icon/twitter.svg" alt="Icono de twitter"
+                /></a>
+              </li>
+              <li class="networksList__item">
+                <a class="networksList__link" href="#"
+                  ><img
+                    src="assets/icon/googleplus.svg"
+                    alt="Icono de googleplus"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- |||| |||| ---- SCRIPTS ---- |||| |||| -->
+
+    <script src="js/deletePreloadClass.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
