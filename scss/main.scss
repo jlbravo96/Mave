@@ -42,6 +42,7 @@ body {
 }
 .main-container {
   background-color: $white-bg;
+
   @media screen and (min-width: $xxl) {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -114,7 +115,7 @@ body {
   }
 
   &__item {
-    @media screen and (min-width: $sm) {
+    @media screen and (min-width: $md) {
       margin-right: calc(0.8rem + 1vw);
     }
   }
@@ -124,18 +125,18 @@ body {
     font-weight: 700;
     padding: 0.75rem 0;
     width: 100%;
-    color: $complementary;
-    transition: color 0.4s;
+    color: $secondary-dark;
+    opacity: 0.6;
+    transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -ms-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
 
-    -webkit-transition: color 0.4s;
-    -moz-transition: color 0.4s;
-    -ms-transition: color 0.4s;
-    -o-transition: color 0.4s;
-
-    @media screen and(min-width: $lg) {
+    @media screen and (min-width: $lg) {
       padding: 0;
       &:hover {
-        color: #000;
+        opacity: 1;
       }
     }
 
@@ -182,6 +183,7 @@ body {
   font-size: 3rem;
   line-height: 3.125rem;
   font-weight: 500;
+  color: $secondary-dark;
 }
 
 .pageSubtitle {
